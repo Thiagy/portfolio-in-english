@@ -643,9 +643,9 @@ footer{
         right: -300px;
         width: 300px;
         padding: 70px 30px 30px 30px;
-        background-color: rgba(0, 0, 0, .8);
+        background-color: rgba(0, 0, 0, 1);
         border-radius: 12px;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(30px);
         transition: .6s;
         gap: 16px;
 
