@@ -31,7 +31,6 @@
     background-color: #20242D;
     overflow: hidden;
 }
-  
 
 html, body{
 
@@ -236,6 +235,7 @@ section{
     align-items: center;
     height: 290px;
     width: 290px;
+    
 }
 
 #box-image img{
