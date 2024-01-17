@@ -1,5 +1,5 @@
-document.getElementById('left-ball-arrow').addEventListener('click', goToNextImage)
-document.getElementById('right-ball-arrow').addEventListener('click', goToPreviousImage)
+document.getElementById('right-ball-arrow').addEventListener('click', goToNextImage)
+document.getElementById('left-ball-arrow').addEventListener('click', goToPreviousImage)
 
 var left_arrow = document.getElementById('left-arrow')
 var right_arrow = document.getElementById('right-arrow')
@@ -60,21 +60,21 @@ function updateArrowNavigation(){
 
     if (num >= (6 - numberProductVizible)) {
 
-        left_arrow.style.boxShadow = 'inset 3px 3px gray';
-
-    } else {
-
-        left_arrow.style.boxShadow = 'inset 3.5px 3.5px #01EEFE';
-
-    }
-
-    if (num <= 0) {
-
         right_arrow.style.boxShadow = 'inset 3px 3px gray';
 
     } else {
 
         right_arrow.style.boxShadow = 'inset 3.5px 3.5px #01EEFE';
+
+    }
+
+    if (num <= 0) {
+
+        left_arrow.style.boxShadow = 'inset 3px 3px gray';
+
+    } else {
+
+        left_arrow.style.boxShadow = 'inset 3.5px 3.5px #01EEFE';
         
     }
 
